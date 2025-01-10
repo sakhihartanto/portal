@@ -22,4 +22,4 @@ jobs:
       - name: Build and Push Docker image
         run: |
           docker build -t sakhih/vue-portal-azure-test:latest .
-          docker sakhih/vue-portal-azure-test:latest
+          docker push sakhih/vue-portal-azure-test:latest
